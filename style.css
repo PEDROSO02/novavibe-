@@ -1,0 +1,119 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* CORPO GERAL */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  /* TOPO COM LOGO E MENU */
+  .topo {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  .logo img {
+    width: 100px; /* largura da imagem da logo */
+    height: 50px; /* altura da imagem da logo */
+    object-fit: contain;
+  }
+  
+  .menu a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  /* CATEGORIAS (CÍRCULOS COM ÍCONES) */
+  .categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 10px;
+    background-color: #fff;
+  }
+  
+  .categoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .categoria img {
+    width: 100px; /* antes era 80px */
+    height: 100px; /* antes era 80px */
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid black;
+  }
+  
+  .categoria p {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  
+  /* PRODUTOS */
+  .produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    background-color: #fff;
+  }
+  
+  .produto {
+    width: 200px;
+    margin: 15px;
+    text-align: center;
+  }
+  
+  .produto img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .produto h3 {
+    font-size: 14px;
+    margin: 10px 0;
+    height: 40px;
+    overflow: hidden;
+  }
+  
+  .preco {
+    color: #545454;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .desconto {
+    font-size: 12px;
+    color: #545454;
+    margin-left: 5px;
+    background-color: #FFDE59;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+  
+  /* RODAPÉ */
+  .rodape {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+  
